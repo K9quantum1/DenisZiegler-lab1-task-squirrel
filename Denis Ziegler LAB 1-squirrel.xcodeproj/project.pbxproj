@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D3F36CF2E62ACD700509E04 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F36CE2E62ACD700509E04 /* PhotoViewController.swift */; };
 		CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5750392929E62C00890962 /* TaskAnnotationView.swift */; };
 		CB602B9929247359006C6727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9829247359006C6727 /* AppDelegate.swift */; };
 		CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9A29247359006C6727 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D3F36CE2E62ACD700509E04 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
 		CB602B9529247359006C6727 /* lab-task-squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-task-squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB602B9829247359006C6727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				CB9D9ED5292488BC00F8F51B /* Task Detail */,
 				CB9D9ED2292483C400F8F51B /* Models */,
 				CB602B9E29247359006C6727 /* Main.storyboard */,
+				7D3F36CE2E62ACD700509E04 /* PhotoViewController.swift */,
 				CB602BA32924735C006C6727 /* LaunchScreen.storyboard */,
 				CB602BA12924735C006C6727 /* Assets.xcassets */,
 				CB602BA62924735C006C6727 /* Info.plist */,
@@ -190,6 +193,7 @@
 				CB602B9D29247359006C6727 /* TaskListViewController.swift in Sources */,
 				CB9D9EDA292489E000F8F51B /* TaskComposeViewController.swift in Sources */,
 				CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */,
+				7D3F36CF2E62ACD700509E04 /* PhotoViewController.swift in Sources */,
 				CB602B9929247359006C6727 /* AppDelegate.swift in Sources */,
 				CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */,
 				CB9D9ED1292483BC00F8F51B /* Task.swift in Sources */,

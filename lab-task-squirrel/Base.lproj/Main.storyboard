@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wg7-xV-89h">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wg7-xV-89h">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -18,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorInsetReference="fromAutomaticInsets" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q4w-ie-GaD">
-                                <rect key="frame" x="0.0" y="91" width="390" height="753"/>
+                                <rect key="frame" x="0.0" y="190" width="390" height="654"/>
                                 <inset key="separatorInset" minX="48" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="60" id="WLA-WM-GNM" customClass="TaskCell" customModule="lab_task_squirrel" customModuleProvider="target">
@@ -29,7 +30,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3hR-MB-ER4">
-                                                    <rect key="frame" x="20" y="10.999999999999998" width="350" height="20.333333333333329"/>
+                                                    <rect key="frame" x="16" y="10.999999999999998" width="358" height="20.333333333333329"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.inset.filled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JTe-Ug-cUc">
                                                             <rect key="frame" x="0.0" y="0.6666666666666643" width="18" height="19.333333333333332"/>
@@ -38,7 +39,7 @@
                                                             </preferredSymbolConfiguration>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to the store and grab Hot Cheetos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY4-bn-3Uz">
-                                                            <rect key="frame" x="28" y="0.0" width="322" height="20.333333333333332"/>
+                                                            <rect key="frame" x="28" y="0.0" width="330" height="20.333333333333332"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -105,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="sqt-n7-c1E" userLabel="Completed Status Stack View">
-                                <rect key="frame" x="24.000000000000007" y="115" width="101.66666666666669" height="20.333333333333343"/>
+                                <rect key="frame" x="24.000000000000007" y="162" width="101.66666666666669" height="20.333333333333343"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.inset.filled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gP7-Uc-dFm">
                                         <rect key="frame" x="0.0" y="0.6666666666666643" width="19.333333333333332" height="19.333333333333332"/>
@@ -123,7 +124,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="RJW-I6-Md9">
-                                <rect key="frame" x="24" y="159.33333333333337" width="342" height="463"/>
+                                <rect key="frame" x="24" y="206.33333333333334" width="342" height="497.33333333333326"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3wZ-hG-DrB">
                                         <rect key="frame" x="0.0" y="0.0" width="342" height="104.66666666666667"/>
@@ -135,7 +136,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure to get the Xtra Hot variety in either the large or medium large bag." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK8-9k-CuP">
-                                                <rect key="frame" x="0.0" y="62.333333333333314" width="342" height="42.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="62.333333333333343" width="342" height="42.333333333333343"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -143,7 +144,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-HK-1Xq">
-                                        <rect key="frame" x="0.0" y="128.66666666666666" width="342" height="334.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="128.66666666666666" width="342" height="368.66666666666674"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U18-CX-28F">
                                                 <rect key="frame" x="0.0" y="0.0" width="342" height="34.333333333333336"/>
@@ -161,6 +162,14 @@
                                                 </constraints>
                                                 <standardMapConfiguration key="preferredConfiguration"/>
                                             </mapView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muN-w2-Akm">
+                                                <rect key="frame" x="0.0" y="334.33333333333337" width="342" height="34.333333333333314"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="View Photo"/>
+                                                <connections>
+                                                    <segue destination="0N8-dK-mPZ" kind="show" identifier="PhotoSegue" id="t9e-LU-h5u"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -186,6 +195,7 @@
                         <outlet property="descriptionLabel" destination="XK8-9k-CuP" id="7J5-NS-A0C"/>
                         <outlet property="mapView" destination="iAe-dV-9ki" id="FFE-oG-DYl"/>
                         <outlet property="titleLabel" destination="7ZS-zZ-Yxg" id="qiA-Cl-hFG"/>
+                        <outlet property="viewPhoto" destination="muN-w2-Akm" id="ntA-pG-6jQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odg-GX-QzR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -198,7 +208,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wg7-xV-89h" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="DRp-lg-aqr">
-                        <rect key="frame" x="0.0" y="47" width="390" height="96"/>
+                        <rect key="frame" x="0.0" y="94" width="390" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" systemColor="systemBlueColor"/>
@@ -285,6 +295,31 @@
             </objects>
             <point key="canvasLocation" x="985" y="717"/>
         </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="teE-LQ-k28">
+            <objects>
+                <viewController id="0N8-dK-mPZ" customClass="PhotoViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1BW-pe-Cha">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hiW-7U-zOa">
+                                <rect key="frame" x="75" y="271" width="240" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wsi-x4-6u0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="151-wl-SVS"/>
+                    <connections>
+                        <outlet property="photoView" destination="hiW-7U-zOa" id="CzV-F3-qgb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8x-3K-Miw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2469.2307692307691" y="13.507109004739336"/>
+        </scene>
     </scenes>
     <resources>
         <image name="circle.inset.filled" catalog="system" width="128" height="123"/>
@@ -293,10 +328,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
